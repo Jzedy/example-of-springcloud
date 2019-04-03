@@ -6,6 +6,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * 配置 配置中心地址在bootstrap.yml中配置，在application.yml中报错
+ */
 @RestController
 @SpringBootApplication
 public class ConfigClientApplication {
