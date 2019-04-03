@@ -8,4 +8,8 @@ spring:
     config:
       server:
         git:
-          uri:
+          uri: https://github.com/Jzedy/example-of-springcloud
+          search-paths: config
+          default-label: master
+#          username:
+#          password:
